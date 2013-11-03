@@ -51,6 +51,8 @@ This three are self-explanatory. Start/Stop receiving updates and access the lat
 ## Example usage
 There is an sample implementation you can check-out and try.
 
+If you try to import it into Android Studio it will probably complain about not finding the Android SDK. If that's the case just provide the location in a local.properties file in the root folder of the project.
+
 ## Limitations
 No Geofencing (shouldn't be hard to add though).
 
