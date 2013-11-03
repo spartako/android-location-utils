@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationUtils Example</string>
+    <string name="last_location_fix">Last location fix:</string>
+    <string name="time">Time:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="time_since_last_fix">Time since last fix:</string>
+    <string name="parameters">Parameters:</string>
+    <string name="priority">Priority:</string>
+    <string name="interval">Interval:</string>
+    <string name="fastest_interval">FastestInterval:</string>
+    <string name="num_updates">NumUpdates:</string>
+    <string name="smallest_displacement">SmallestDisplacement:</string>
+    <string name="expiration_time">ExpirationTime:</string>
+    <string name="expiration_duration">ExpirationDuration:</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="waiting_for_fix">Waiting for new fix...</string>
+    <string name="new_fix_exclamation">NEW FIX!</string>
+    <string name="already_started">Already started.</string>
+    <string-array name="priorities_array">
+        <item>HIGH_ACCURACY</item>
+        <item>BALANCED_POWER_ACCURACY</item>
+        <item>LOW_POWER</item>
+        <item>NO_POWER</item>
+    </string-array>
+
+</resources>
