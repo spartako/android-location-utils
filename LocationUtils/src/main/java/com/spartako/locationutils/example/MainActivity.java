@@ -73,7 +73,13 @@ public class MainActivity extends LocationActivity {
             outState.putParcelable(KEY_LOCATION_REQUEST, mLocationRequest);
         }
         outState.putBoolean(KEY_LOCATION_REQUEST_ON_GOING, mRequestUpdatesOnGoing);
-        clearInformationTextViews();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //remove looping handler
+        mTimeSinceLastFixView.removeCallbacks(refreshTimeSinceLastFixView);
     }
 
     private LocationRequest defaultRequest() {
