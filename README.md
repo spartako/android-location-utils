@@ -53,6 +53,7 @@ There is an sample implementation you can check-out and try.
 
 ## Limitations
 No Geofencing (shouldn't be hard to add though).
+
 No PendingIntents. Just the activity extending LocationActivity will get notified of new fixes.
 
 ## Disclaimer
